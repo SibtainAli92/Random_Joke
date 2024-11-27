@@ -41,21 +41,21 @@ export default function RandomJoke() {
 
   // JSX return statement rendering the random joke UI
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-[#ffa500] to-[#ff6b6b] p-4">
+    <div className="flex flex-col items-center justify-center text-center h-screen font-[math] bg-gradient-to-br from-[#4d4c4a] to-[#bdb4b4] p-4">
       {/* Center the joke card within the screen */}
-      <div className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-md">
+      <div className="bg-[#a5a4a3] rounded-2xl shadow-lg p-8 w-full max-w-md [box-shadow:0px_0px_30px_black]">
         {/* Header with title */}
         <h1 className="text-3xl font-bold mb-4 text-[#333]">
           😂 Random Joke 👈
         </h1>
         {/* Display the joke or a loading message */}
-        <div className="bg-[#f5f5f5] rounded-lg p-6 mb-6 text-[#555] text-lg">
+        <div className="bg-[#000000] rounded-lg p-6 mb-6 text-[rgb(247,245,245)] text-lg">
           {joke || "Loading..."}
         </div>
         {/* Button to fetch a new joke */}
         <Button
           onClick={fetchJoke}
-          className="bg-[#4caf50] hover:bg-[#43a047] text-white font-bold py-2 px-4 rounded-full transition-colors duration-300"
+          className="bg-[#324232] hover:bg-[#445345] text-white font-bold py-2 px-4 rounded-full transition-colors duration-300"
         >
           😂 Get New Joke 😂
         </Button>
