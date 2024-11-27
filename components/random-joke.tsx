@@ -43,7 +43,7 @@ export default function RandomJoke() {
   return (
     <div className="flex flex-col items-center justify-center text-center h-screen font-[math] bg-gradient-to-br from-[#4d4c4a] to-[#bdb4b4] p-4">
       {/* Center the joke card within the screen */}
-      <div className="bg-[#a5a4a3] rounded-2xl shadow-lg p-8 w-full max-w-md [box-shadow:0px_0px_30px_black]">
+      <div className="bg-[#a5a4a3] rounded-2xl shadow-lg p-8 w-full max-w-md [box-shadow:0px_0px_20px_white]">
         {/* Header with title */}
         <h1 className="text-3xl font-bold mb-4 text-[#333]">
           😂 Random Joke 👈
